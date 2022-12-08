@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Systems\Input.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Systems\Time.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Systems\Window.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\Resources\VertexType.cpp">
+      <Filter>Renders\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Systems\Graphics.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\IA\VertexBuffer.cpp">
+      <Filter>Renders\IA</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\Shaders\IShader.cpp">
+      <Filter>Renders\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\Shaders\VertexShader.cpp">
+      <Filter>Renders\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\IA\IndexBuffer.cpp">
+      <Filter>Renders\IA</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\IA\InputLayout.cpp">
+      <Filter>Renders\IA</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\Shaders\PixelShader.cpp">
+      <Filter>Renders\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\ColorRect.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Object.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Drawable.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Line.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Scene1_Geometry.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Circle.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Scene2_Clock.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Utillities\Collision.cpp">
+      <Filter>Utillities</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Scene3_Intersect.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\TextureRect.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Scene4_WallRect.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Scene4_RenderTexture.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Utillities\RenderTexture.cpp">
+      <Filter>Utillities</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene5_TextureInverse.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Program.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Systems\Input.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\Time.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\Window.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\Resources\VertexType.h">
+      <Filter>Renders\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\Graphics.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\IA\VertexBuffer.h">
+      <Filter>Renders\IA</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\Shaders\IShader.h">
+      <Filter>Renders\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\Shaders\VertexShader.h">
+      <Filter>Renders\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\IA\IndexBuffer.h">
+      <Filter>Renders\IA</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\IA\InputLayout.h">
+      <Filter>Renders\IA</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\Shaders\PixelShader.h">
+      <Filter>Renders\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\Resources\ShaderBuffer.h">
+      <Filter>Renders\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\Resources\GlobalBuffer.h">
+      <Filter>Renders\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\ColorRect.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Object.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Drawable.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Line.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Scene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Scene1_Geometry.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Circle.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Scene2_Clock.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\SceneList.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Utillities\Collision.h">
+      <Filter>Utillities</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Scene3_Intersect.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\TextureRect.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Scene4_WallRect.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Scene4_RenderTexture.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Utillities\RenderTexture.h">
+      <Filter>Utillities</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene5_TextureInverse.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Systems">
+      <UniqueIdentifier>{47ef22d7-40e7-44bf-b7fc-ee0691296e49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utillities">
+      <UniqueIdentifier>{8ebe575b-d770-4eec-837d-67706faeb989}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renders">
+      <UniqueIdentifier>{dd3614c5-1801-42ae-bbf6-ad2217ee2930}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renders\IA">
+      <UniqueIdentifier>{7e669e05-3da4-42e3-b640-6f89afd39f85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renders\Resources">
+      <UniqueIdentifier>{e480248e-472f-4c2b-b6f2-2f05db81c6fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renders\Shaders">
+      <UniqueIdentifier>{768dab4c-d889-4f35-812d-8bda9b388188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{99699c29-854f-4271-82ed-9c88e2d0d807}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{73d79831-9d0f-4f36-a7fc-1658900ef724}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
